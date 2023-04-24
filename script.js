@@ -10,7 +10,7 @@ class Person {
 		this.name = name
 	}
 	set age(){
-		this.age = age
+		return age
 	}
 }
 
