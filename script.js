@@ -15,12 +15,14 @@ class Person {
 
 class Student extends Person {
   study() {
+	  super(name,age)
     console.log(`${this.name} is studying.`);
   }
 }
 
 class Teacher extends Person {
   teach() {
+	  super(name,age)
     console.log(`${this.name} is teaching.`);
   }
 }
